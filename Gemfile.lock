@@ -163,7 +163,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  actionpack (>= 5.0.7.2)
   byebug
   coffee-rails (~> 4.2)
   factory_girl
