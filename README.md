@@ -17,7 +17,6 @@ Things you may want to cover:
 
 * How to run the test suite
 
-
 * Build
 
 - Add the factory girl gem to the `test` and `development` group
@@ -38,10 +37,9 @@ $ rails g model user first_name:string last_name:string admin:boolean
 
 ### Update the database
 
+```bash
+rails db:migrate db:test:prepare
 ```
-$ rails db:migrate db:test:prepare
-```
-
 
 ### Run rails console for test
 
